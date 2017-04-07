@@ -25,7 +25,6 @@ class Solution:
         else:
         	pMergedHead = pHead2
         	pMergedHead.next = self.Merge(pHead1, pHead2.next)
-
         return pMergedHead
 
 node1 = ListNode(1)
