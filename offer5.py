@@ -10,15 +10,16 @@ class ListNode:
         self.next = None
 
 class Solution:
+    # 递归版本
     def ReverseList(self, pHead):
-        if pHead.val == None:
-            return
-        l = []
+        if not pHead or not pHead.next:
+            return pHead
 
-        while pHead:
-            l.insert(0, pHead.val)
-            pHead = pHead.next
-        return l
+        else:
+            pnode = self.ReverseList(pHead.next)
+            pHead.next.next = pHead
+            pHead.next = None
+            return pnode
 
 
 
