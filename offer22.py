@@ -8,7 +8,7 @@
 class Solution:
     def IsPopOrder(self, pushV, popV):
         # write code here
-        if not pushV:
+        if not pushV or not popV:
         	return False
         as_stack = []
         n = len(pushV)
