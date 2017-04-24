@@ -23,6 +23,8 @@ class Solution:
         for i in s:
         	if string_num[i] == 1:
         		return i
+        		# OJ 返回位置
+        		# return s.index(i)
         		break
         return -1
 
