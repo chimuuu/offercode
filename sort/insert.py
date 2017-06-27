@@ -1,7 +1,7 @@
 # env/bin/python
 # coding:utf-8
 
-# 排序算法之直接插入（稳定算法） 时间复杂度为 n^2
+# 排序算法之直接插入（稳定排序） 时间复杂度为 n^2
 
 class Solution:
 	# 插入排序
