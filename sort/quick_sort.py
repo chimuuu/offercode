@@ -1,4 +1,4 @@
-# env/bin/python
+# !/usr/bin/env python
 # coding:utf-8
 
 # 排序算法之快速排序 （不稳定排序）时间复杂度为 0(nlogn, n^2)
