@@ -1,2 +1,2 @@
-《剑指offer》及常用排序算法（sort）练习
+《剑指offer》及常用算法实现
 				——Python实现
